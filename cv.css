@@ -1,0 +1,111 @@
+body {
+color:black;
+background-color:white;
+background-image:url(fond.jpg);
+background-attachment:fixed;
+background-position:0% 0%;
+background-repeat:no-repeat;
+
+margin:10px;
+
+
+}
+.page{
+	width :70%;
+	margin :auto;
+	padding : 10%;
+	font-size :16px;
+	font-family : Calibri, Tahoma, sans-serif;
+}
+.infophoto{
+	height : 200px;
+	
+}
+.info{
+	float : left;
+	
+}
+.photo{
+	float : right;
+}
+.section{
+	margin-bottom :70px
+	text-align :justify
+}
+
+.sec-gauche{
+	float : left;
+	font-weight : bold;
+	font-size: 20px;
+}
+.sec-droite{
+	margin-left : 160px;
+	margin-top :37px
+}
+.Strong{
+	font-size :26px;
+	
+}
+
+
+h2{
+	font-size : 28px;
+	color : #3388BB;
+	text-transform : uppercase;
+	border-bottom : 2px solid #3388DD;
+	text-align: center}
+.menu{
+	font-size : 20px;
+	color : #3388BB;
+
+}		
+.titre{
+	font-weight : bold;
+	font-size : 20px;
+	
+	
+}
+#publi-gauche p{
+	margin-bottom : -35px;
+	padding : 80%;
+}
+#comp-gauche p{
+	margin-bottom : -14px;
+	padding : 15%;
+}
+#comp-droite p{
+	margin-bottom : 22px;
+}
+#expre-gauche p{
+	margin-bottom : -7px;
+	padding : 48px;
+
+
+}
+#format-gauche p{
+	margin-bottom : -23px;
+		padding : 28px;
+
+
+}
+#autr-gauche p{
+	margin-bottom : -50px;
+	padding : 25px;
+}
+
+
+.mdl-slider__container {
+    background-color: white !important; /* Met le fond de la barre en blanc */
+    position: fixed !important; /* Permet de définir la position de la barre comme fixe */
+    top: 0; /* Défini la postion de la barre en haut */
+    z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
+    width: 70vw; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
+}
+.mennu {
+	text-align: center;
+   /* background-color: white !important; /* Met le fond de la barre en blanc */
+    position: fixed !important; /* Permet de définir la position de la barre comme fixe */
+   top: 0; /* Défini la postion de la barre en haut */
+    z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
+   /* width: 20%; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
+}
